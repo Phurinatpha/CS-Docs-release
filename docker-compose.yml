@@ -10,8 +10,6 @@ services:
       - .env.dev
     depends_on:
       - db
-    environment:
-    - DOCKER_BUILDKIT=1
   db:
     image: postgres:13-alpine
     volumes:
