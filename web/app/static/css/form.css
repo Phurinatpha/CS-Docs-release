@@ -1,0 +1,458 @@
+form {
+    background: #ffffff;
+    margin: 10px auto;
+    padding: 15px 40px 15px 40px;
+    width: 100%;
+}
+
+
+input {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 1px solid #aaaaaa;
+    -moz-box-shadow:0 0 5px 0px #36485c;
+    -webkit-box-shadow:0 0 5px 0px #36485c;
+    box-shadow:0 0 5px 0px #36485c;
+  }
+
+textarea{
+    border: 1px solid #aaaaaa;
+    outline: none;
+}
+
+textarea:focus{
+    border: 1px solid #aaaaaa;
+    -moz-box-shadow:0 0 5px 0px #36485c;
+    -webkit-box-shadow:0 0 5px 0px #36485c;
+    box-shadow:0 0 5px 0px #36485c;
+    box-shadow:0 0 5px 0px #36485c;
+}
+
+
+.index-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.index-btn-wrapper i {
+    margin-right: 7px;
+}
+
+.index-btn {
+    margin: 40px 25px 0 25px;
+    background: #CCCCCC;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    /* width: 90%; */
+    width: 57%;
+    border-radius: 10px;
+    cursor: not-allowed;
+    
+}
+
+.index-btn:hover {
+    opacity: 0.8;
+}
+
+.fa-floppy-disk {
+    margin-right: 10px;
+}
+
+.tab-container {
+    padding: 0px 25px 0px 25px;
+    margin-top: 40px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.pop-up-header {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #022851;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+
+}
+
+.tab .attachment {
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+/*-----------------------------------SweetAlert-----------------------------------*/
+div:where(.swal2-container) div:where(.swal2-popup) {
+    padding: 25px 0 45px 0;
+  }
+  
+
+/*-----------------------------------------tab-1-----------------------------------------*/
+.form-group {
+    display: flex;
+    align-items: center;
+    /* Aligns items vertically within the flex container */
+    margin-bottom: 10px;
+    /* Adds space between this and other form groups */
+}
+
+.form-group-subject {
+    display: flex;
+    align-items: start;
+
+    /* Aligns items vertically within the flex container */
+   
+}
+
+.form-group label,
+.form-group-subject label {
+    font-size: 15px;
+    width: 20%;
+    
+}
+
+#refer_num{
+    background: #e0e0e0;
+    cursor: not-allowed;
+}
+
+#thaiDatePicker{
+    cursor: pointer;
+}
+.bi-calendar{ 
+    margin-left: -35px;
+    font-size: 18px;
+    transform: translateY(-22%);    
+    pointer-events: none; /* Prevent the icon from blocking input events */
+}
+/* Styles for the date select */
+/* .form-group select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+} */
+
+/* Optional style to add space between the selects */
+/* .form-group select:not(:last-child) {
+    margin-right: 5px;
+} */
+
+#descrip {
+    /* Add your desired styles for the textarea here */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 46px;
+    width: 60%;
+    resize: vertical;
+    /* Allow vertical resizing of the textarea */
+}
+
+
+/*-----------------------------------------tab 2-----------------------------------------*/
+.form-group-2,
+.form-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style the label to make it look like a header */
+.form-group-2 h3 {
+    margin: 0 0 0 0;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ccc;
+    color: #022851;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+
+.form-head {
+    width: 100%;
+}
+
+.form-group-2 h3,
+#name_list {
+    width: 60%;
+}
+
+#name_list {
+    font-size: 16px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    height: 100px;
+    padding: 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+
+/*-----------------------------------------tab 3-----------------------------------------*/
+.form-group-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab-3 h1 {
+    font-size: 22px;
+    width: auto;
+}
+
+#tab-3 h3,
+#tab-4 h3 {
+    font-size: 18px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.or {
+    padding: 10px 0px 0px 0px;
+}
+
+
+.pdf-img{
+    margin-top: 22px;
+    margin-bottom: 20px;
+    height:100px;
+}
+
+#click-to-add{
+    cursor: pointer;
+}
+
+.click-to-add {
+    position: relative;
+    font-size: 18px;
+    width: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.click-to-add:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #022851;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.click-to-add:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hidden {
+    display: none;
+}
+
+#drag-and-drop{
+    display: flex;
+    height: 300px;
+    width: 60%;
+    border: 1px dashed #aaa;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#uploaded-file-container {
+    width: 60%;
+    height: 200px;
+    border: 1px dashed #aaa;
+    border-radius: 10px;
+    padding: 20px;
+    /* DO NOT REMOVE this "display setting" is a part of upload file 
+    this will make part of display uploaded file to be hidden
+    before upload file*/
+    display: none;
+    text-align: left;
+    word-break: break-all;
+}
+
+.file-container {
+    display: flex;    
+}
+
+#uploaded-file-name {
+    flex: 1;
+    /* This will make the paragraph take up remaining space */
+}
+
+.bi-check-circle-fill{
+    padding-left: 10px;
+}
+
+#remove-btn {
+    margin-left: 5px;
+    /* Add some space between the paragraph and the icon */
+    cursor: pointer;
+}
+#remove-btn:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+    color: red;
+}
+
+
+/*-----------------------------------------Responsive-----------------------------------------*/
+@media only screen and (max-width: 1025px) {
+   
+    form {
+        padding: 15px 10px 10px 10px;
+    }
+
+    .form-group label,
+    .form-group-subject label {
+        font-size: 16px;
+        width: 25%;
+    }
+
+    /*---------tab 2---------*/
+    /* #name_list {
+        background-color: #cffc06;
+    } */
+
+    /*---------tab 3---------*/
+    #tab-3 h1 {
+        font-size: 20px;
+        width: auto;
+    }
+
+    .click-to-add {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    /* #name_list {
+        background-color: #1f06fc;
+    } */
+
+    .form-group label,
+    .form-group-subject label, .form-group select {
+        width: 30%;
+    }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 480px) {
+    form {
+        padding: 15px 0px 0px 0px;
+    }
+
+    /*---------tab 1---------*/
+    .pop-up-header {
+        font-size: 20px;
+    }
+
+    .form-group,.form-group-subject {
+        display: inline-table;
+    }
+
+    .form-group{
+        margin-bottom: 20px;
+    }
+    
+    .form-group label,
+    .form-group-subject label {
+        width: 100%;
+    }
+
+    .form-group input{
+        margin-top: 10px; 
+        margin-left: 12%;
+        font-size: 14px;
+    }
+
+    #daySelect{
+        margin-left: 10%;
+    }
+
+    #descrip {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    /*---------tab 2---------*/
+    .form-group-2 h3, #name_list {
+        width: 80%;
+    }
+
+    /* #name_list {
+        background-color: #fc0606;
+    } */
+
+    /*---------tab 3---------*/
+    #tab-3 h1 {
+        font-size: 16px;
+        width: auto;
+    }
+
+    #tab-3 h3{
+        font-size: 14px;
+    }
+
+    #uploaded-file-container{
+        width: 80%;
+        height: 150px;
+        padding: 10px;
+    }
+
+    #uploaded-file-name{
+        font-size: 12px;
+       
+    }
+
+    .bi-check-circle-fill,.bi-trash-fill{
+        font-size: 10px;
+        vertical-align: auto;
+    }
+
+    #remove-btn{
+        margin-top: -7px;
+    }
+    .click-to-add {
+        font-size: 16px;
+    }
+
+    #drag-and-drop {
+        width: 80%;
+        height: 180px;
+    }
+}

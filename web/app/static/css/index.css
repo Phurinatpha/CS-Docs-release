@@ -1,0 +1,586 @@
+/*-----------------------------------SweetAlert-----------------------------------*/
+div:where(.swal2-container) div:where(.swal2-popup) {
+  padding: 25px 0 45px 0 !important;
+}
+
+
+
+/*-----------------------------------Three main buttons-----------------------------------*/
+.btn-act {
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #022851;
+  color: #fff;
+  border: none;
+}
+
+.btn-act.btn-primary.btn-create {
+  height: 85px;
+  width: 175px;
+}
+
+.btn-primary{
+  transition: .2s ease-in-out 0s;
+}
+
+.btn-primary:hover{
+  transform: scale(1.05);
+  /* transition: 0.2s; */
+  background-color: #0e3e72;
+}
+
+.btn-act.btn-primary.d-sm-table {
+  width: 150px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  height: 80px
+}
+
+/* Apply styles to the first column */
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.create-form {
+  display: flex;
+  flex: 0 0 50%;
+  max-width: 50%;
+  justify-content: start;
+}
+
+.search-form {
+  display: flex;
+  flex: 0 0 50%;
+  max-width: 50%;
+  justify-content: flex-end;
+}
+
+.btn-create i {
+  display: flex;
+  font-size: 25px;
+  padding-bottom: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Apply styles to the second column */
+.col-md-6.d-sm-flex {
+  display: table;
+
+  width: 100%;
+}
+
+.d-sm-table i {
+  display: flex;
+  font-size: 25px;
+  padding-bottom: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply styles to the buttons inside the second column */
+.col-md-6.d-sm-flex .btn {
+  display: table-cell;
+}
+
+.book-img{
+  height:36px;
+  margin-right: 5px;
+}
+.edit-img{
+  height:16px;
+  margin-right: 5px;
+
+}
+
+.del-img{
+  height:16px;
+  margin-right: 5px;
+  margin-left: -15px;
+}
+
+
+
+.doc-head {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.sub-doc-header {
+  /* for mobile responsive remove display: flex */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.sub-doc {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-size: 16px;
+
+}
+
+.sub-doc-mobile {
+  display: none;
+  font-size: 16px;
+}
+#all-doc,
+#all-founded,
+#count_doc,
+#count_doc-s,
+#show-per-page {
+  color: red;
+  margin: 0 5px 0 5px;
+}
+
+.blank-space{
+  margin-top: 20px;
+}
+
+
+/*-----------------------------------Search-----------------------------------*/
+.doc-search {
+  position: relative;
+  /* for mobile responsive set width to 100% */
+  width: 25%;
+}
+
+#customSearch {
+  font-size: 16px;
+  width: 100%;
+  /* height: 35px; */
+  padding: 6px 20px 6px 40px;
+  /* Adjust the padding as needed */
+  text-align: center;
+  outline: none;
+}
+
+#customSearch:focus {
+  border: 1px solid #aaaaaa;
+  -moz-box-shadow:0 0 5px 0px #36485c;
+  -webkit-box-shadow:0 0 5px 0px #36485c;
+  box-shadow:0 0 5px 0px #36485c;
+}
+
+
+.doc-search .bi-search {
+  position: absolute;
+  top: 5%;
+  left: 20px;
+  /* Adjust the left position as needed */
+  font-size: 18px;
+  color: #022851;
+  /* Adjust the icon color as needed */
+  cursor: unset;
+}
+
+/* .doc-search .bi-plus{
+  position: absolute;
+  top: 5%;
+  right: 10px; 
+  font-size: 18px; 
+  color: #000; 
+
+} */
+
+
+/*-----------------------------------Table-----------------------------------*/
+.table-container {
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+  /* Add drop shadow */
+  border-radius: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  /* For making space between table and footer */
+  /* Might remove when add nav page */
+  /* margin-bottom: 120px; */
+}
+
+.table-responsive{
+  border-radius: 10px;
+}
+
+.table th {
+  background-color: #022851;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+/* All rows under th */
+.table-striped>tbody>tr>td {
+  font-size: 15px;
+   /* Disable hover effect */
+   box-shadow: none; 
+}
+
+/* th subject name */
+.table-striped > thead > tr > th:nth-child(3) {
+  text-align: center;
+}
+
+/* td subject name */
+.table-striped > tbody > tr td:nth-child(3) {
+  min-width: 250px; /* Set the maximum width before word wrap */
+  height: 81.75px;
+  word-wrap: break-word;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;  
+}
+
+/* td doc create name */
+.table-striped > tbody > tr td:nth-child(4) {
+  min-width: 180px; 
+}
+
+/* td doc create date */
+.table-striped > tbody > tr td:nth-child(5) {
+  min-width: 150px; 
+}
+
+/* td clip paper */
+.table-striped > tbody > tr td:nth-child(6) {
+  min-width: 90px; 
+}
+
+/* td doc edit/del */
+.table-striped > tbody > tr td:nth-child(7) {
+  min-width: 130px; 
+}
+
+/* Apply alternating background colors to even rows */
+.table-striped>tbody>tr:nth-child(2n)>td,
+.table-striped>tbody>tr:nth-child(2n)>th {
+  background-color: #e7e6e6;
+ 
+}
+
+
+/* Add hover effect to even rows */
+/* .table-striped>tbody>tr:nth-child(2n):hover>td,
+.table-striped>tbody>tr:nth-child(2n):hover>th {
+  background-color: inherit;
+} */
+
+/* h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+} */
+
+.even-row .text-center,
+.even-row .text-start {
+  background: #e0e0e0;
+}
+
+/* Apply styles to the row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*remove the box around the paperclip icon */
+.bi.bi-paperclip {
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  transition: .2s ease-in-out 0s;
+}
+
+.bi.bi-paperclip:hover {
+  color: blue;
+  transform: scale(1.15);
+  /* transform: translateY(-5px); */
+}
+
+
+/*-----------------------------------Edit & Del button----------------------------------- */
+.btn-edit-del {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Align buttons horizontally in the center */
+}
+
+/* Styling for the buttons inside the table cell */
+.table .btn-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  /* Change this value to adjust the button width */
+  padding: 0px;
+  padding-top: 0px;
+  margin-bottom: 7px;
+  border-radius: 8px;
+  margin-top: 5%;
+  border: none;
+  color: #ffffff;
+  background-color: #FAA849;
+  transition: .2s ease-in-out 0s;
+}
+
+.table .btn-edit:hover {
+  transform: scale(1.05);
+  background-color: #fab362;
+}
+
+.table .btn-del {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  padding: 0px;
+  padding-top: 0px;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  border: none;
+  color: #ffffff;
+  background-color: #DE4545;
+  cursor: pointer;
+  transition: .2s ease-in-out 0s;
+}
+
+.table .btn-del:hover{
+  transform: scale(1.05);
+  background-color: #fa5b5b;
+}
+
+
+/*-----------------------------------Modal-----------------------------------*/
+.modal-full {
+  min-width: 65%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  /* Choose your preferred color for the close button */
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Adding a hover effect to the close button */
+.close:hover {
+  color: #ff0000;
+  /* Choose your preferred color for the close button on hover */
+}
+
+
+/*-----------------------------------Pagination-----------------------------------*/
+.pagination {
+
+  display: flex;
+  position: relative;
+  border-radius: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.pagination a {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+  /* width: 100px; */
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  transition: .3s linear;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: #022851;
+  color: #fff;
+}
+
+.pagination-links {
+  text-align: center;
+}
+
+.pagination-links a {
+  font-size: 12px;
+  display: inline-block;
+  width: 45px;
+  height: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: black;
+  border-radius: 10px;
+  padding: 0;
+  border: 1px solid #D9D9D9;
+}
+
+.pagination-links a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Style for the current page link (overrides the existing styles) */
+.current-page {
+  background-color: #022851 !important;
+  color: #FFF !important;
+}
+
+
+
+/*-----------------------------------------Responsive-----------------------------------------*/
+@media only screen and (max-width: 1025px) {
+  .modal-full {
+      min-width: 80%;
+      padding-top:0px;
+      padding-bottom: 0px;
+
+  }
+}
+
+@media only screen and (min-width: 768px){
+  
+  #prevPage-mobile, #nextPage-mobile{
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sub-doc {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .sub-doc-header {
+    display: inline;
+  }
+
+  .doc-search {
+    width: 100%;
+  }
+
+  
+  #prevPage-mobile, #nextPage-mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  #prevPage-mobile, #nextPage-mobile{
+    display: inline;
+  }
+  #prevPage, #nextPage{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .doc-head {
+    font-size: 20px;
+  }
+
+  .sub-doc {
+    font-size: 16px;
+  }
+
+  .sub-doc-header {
+    display: inline;
+  }
+
+  .doc-search {
+    width: 100%;
+  }
+
+  .pagination-links a{
+    width: 30px;
+  }
+
+  #prevPage-mobile, #nextPage-mobile{
+    display: inline;
+  }
+
+  #prevPage, #nextPage{
+    display: none;
+  }
+}
+
+/* Extra small devices (phones) */
+@media only screen and (max-width: 495px) {
+  .modal-full {
+    min-width: 95%;
+  }
+
+ 
+  .sub-doc-header {
+    display: inline;
+  }
+
+  .sub-doc {
+    display: none;
+    color: #09ff00;
+  }
+
+  .sub-doc-mobile {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .doc-search {
+    width: 100%;
+  }
+  .doc-head {
+    justify-content: center;
+    /* text-align: center; */
+  }
+
+  /* .create-form {
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    justify-content: center;
+  } */
+
+  .pagination-links a{
+    width: 25px;
+  }
+ 
+
+}
+
+@media only screen and (max-width: 376px) {
+  .btn-act.btn-primary.d-sm-table {
+    margin-left: 10px;
+  }
+}

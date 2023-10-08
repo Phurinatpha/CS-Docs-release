@@ -1,0 +1,280 @@
+/*-----------------------------------SweetAlert-----------------------------------*/
+div:where(.swal2-container) div:where(.swal2-popup) {
+  padding: 25px 0 45px 0 !important;
+}
+
+
+/*-----------------------------------buttons-----------------------------------*/
+.btn-act-m {
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn-act-m.btn-primary.btn-create {
+  height: 85px;
+  width: 150px;
+}
+
+.btn-act-m.btn-primary.btn-add-person {
+  height: 85px;
+  width: 150px;
+}
+
+.btn-act-m.btn-primary.d-sm-table {
+  width: 130px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+
+.btn-create i,
+.btn-add-person i {
+  display: flex;
+  font-size: 25px;
+  padding-bottom: 5px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.doc-search input{
+  border: 1px solid #aaaaaa;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+
+/*-----------------------------------text-----------------------------------*/
+.access-header {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #022851;
+  margin: 28px 0;
+  padding: 5px 15px 5px 15px;
+}
+
+.h2-eligible {
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.sub-doc {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  font-size: 16px;
+}
+
+
+#user-count,
+#user-count-s,
+#show-per-page {
+  color: red;
+  margin: 0 5px 0 5px;
+}
+
+
+/*-----------------------------------Modal-----------------------------------*/
+.modal-full {
+  min-width: 45% !important;
+  padding-top: 45px !important;
+  padding-bottom: 45px !important;
+
+}
+
+label {
+  /* Optional styling for the label text */
+  width: 180px;
+  font-weight: bold;
+  margin-right: 28px;
+}
+
+.radio {
+  width: 100px;
+  font-weight: normal;
+  margin-left: 10px;
+  color: #CCCCCC;
+}
+
+#input-fname,
+#input-lname {
+  width: 300px;
+}
+
+#input-email {
+  width: 200px;
+  border: 1px solid #aaaaaa;;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  
+  outline: none;
+}
+
+#input-email:focus{
+    border-radius: 10px;
+    -moz-box-shadow:0 0 5px 0px #36485c;
+    -webkit-box-shadow:0 0 5px 0px #36485c;
+    box-shadow:0 0 5px 0px #36485c;
+}
+
+.grant-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Aligns items vertically within the flex container */
+  margin-bottom: 20px;
+  /* Adds space between this and other form groups */
+  padding: 0px 10px 0px 10px;
+}
+
+.grant-group .input-container {
+  display: flex;
+  /* border: 1px solid #ccc;
+  border-radius: 7px; */
+}
+
+.grant-group input {
+  /* flex: 1;   */
+  padding: 10px;
+  position: absolute;
+  /* Add padding for spacing */
+}
+
+.grant-group .input-group-addon {
+  margin-left: 180px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #e7e6e6;
+  border: 1px solid #aaaaaa;;
+  border-width:1px 1px 1px 0;
+  /* Add left border to the span element */
+  padding: 10px;
+  padding-left: 30px;
+  /* Add padding for spacing */
+}
+
+.grant-group-level{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0px 10px 0px 10px;
+}
+
+.grant-group-level input{
+  padding: 10px;
+}
+
+.grant-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.grant-btn {
+  display: flex;
+  align-items: center;
+  /* background: #022851; */
+  background: #CCCCCC;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  /* cursor: pointer; */
+  cursor: not-allowed;
+  transition: 0.3s;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.grant-btn:hover {
+  opacity: 0.8;
+}
+
+.grant-btn-wrapper i {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.grant-container {
+  margin: 10px;
+  /* width: 93.4%; */
+}
+
+.grant-header {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #022851;
+  margin: 28px 0;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+}
+
+.grant-header i {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  /* Add some spacing between the icon and text if needed */
+}
+
+
+
+
+/*-----------------------------------Table-----------------------------------*/
+
+.access-container {
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+  /* Add drop shadow */
+  border-radius: 8px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+  /* For making space between table and footer */
+  /* Might remove when add nav page */
+  /* margin-bottom: 120px; */
+}
+
+.add-personel {
+  display: flex;
+  flex: 0 0 50%;
+  max-width: 50%;
+  justify-content: flex-end;
+}
+
+
+.table-striped > tbody > tr td:nth-child(2) {
+  min-width: 200px !important; /* Set the maximum width before word wrap */
+  /* color: red; */
+}
+
+.table-striped > tbody > tr td:nth-child(3) {
+  min-width: 200px !important; /* Set the maximum width before word wrap */
+  /* color: aqua; */
+}
+
+/*-----------------------------------------Responsive-----------------------------------------*/
+@media only screen and (max-width: 655px){
+  .grant-container{
+    padding: 0;
+  }
+
+  .grant-group, .grant-group-level{
+    display: inline-table;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+  label{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .grant-group {
+    padding: 0;
+  }
+}
