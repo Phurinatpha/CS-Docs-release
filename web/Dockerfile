@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:experimental
+
 # pull official base image
 FROM python:3.10-alpine3.15
 
